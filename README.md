@@ -13,7 +13,7 @@
  3. Запустить проект
 
 ### Run application
-Для запуска приложения необходим .NET Core 3.1 Runtime
+Для запуска приложения необходим .NET Core 3.1 Runtime (если есть .NET Core SDK, то не надо)<br />
 Запускаем TaskCountries.exe (...\TaskCountries\TaskCountries\bin\Debug(Realese)\netcoreapp3.1\TaskCountries.exe)
 
 ### Востановление БД
