@@ -16,6 +16,11 @@
 Для запуска приложения необходим .NET Core 3.1 Runtime
 Запускаем TaskCountries.exe (...\TaskCountries\TaskCountries\bin\Debug(Realese)\netcoreapp3.1\TaskCountries.exe)
 
+### Востановление БД
+Для востановления БД предаставляю два backup-файла MS SQL Server 14.0.1000 (должны работать оба):
+ - CountiresDB.bak - текущий файл бэкапа
+ - CountiresDB_old.bak - старый файл бэкапа 
+
 ### Подключение к БД
 Для подключения к БД используется строка подключения в файле конфигурации (connectionString="Data Source=...):<br/>
  - App.config для не собранного проекта (...\TaskCountries\TaskCountries\App.config)
@@ -39,5 +44,3 @@
 ### TaskCountries
 Тип: WPF App (.Net Core 3.1)<br />
 Описание: приложение для демонстрации выполненного задания<br />
-  
-CountiresDB.bak: бекап БД<br />
