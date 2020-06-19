@@ -1,5 +1,25 @@
 # TaskCountries
 
+### Build application
+Для сборки приложения необходим .NET Core 3.1 SDK!<br />
+Способ 1<br />
+ 1. Открыть cmd или PowerShell b и перейти в папку ...\TaskCountries\TaskCountries
+ 2. Выполнить команду dotnet run
+Способ 2<br />
+ 1. Открыть ...\TaskCountries\TaskCountries.sln через Visual Studio
+ 2. Сделать проект TaskCountries запускаемым по умолчанию
+ 3. Запустить проект
+
+### Run application
+Для запуска приложения необходим .NET Core 3.1 Runtime
+Запускаем TaskCountries.exe (...\TaskCountries\TaskCountries\bin\Debug(Realese)\netcoreapp3.1\TaskCountries.exe)
+
+### Подключение к БД
+Для подключения к БД используется строка подключения в файле конфигурации (connectionString="Data Source=...):<br/>
+ - App.config для не собранного проекта (...\TaskCountries\TaskCountries\App.config)
+ - App.config для собранного проекта (...\TaskCountries\TaskCountries\bin\Debug(Realese)\netcoreapp3.1\TaskCountries.dll.config)
+Так же есть возможность подключиться из приложения, если заданая строка подключения через кофиг неверна<br />
+
 ### DomainCore <br />
 Тип: Class Library (.Net Core 3.1) <br />
 Описание: для рыботы с БД<br />
@@ -21,6 +41,3 @@
 Описание: приложение для демонстрации выполненного задания<br />
   
 CountiresDB.bak: бекап БД<br />
-
-Для подключения к БД используется строка подключения в файле конфигурации (App.config)<br />
-Так же есть возможность подключиться из приложения<br />
