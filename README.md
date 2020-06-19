@@ -2,10 +2,10 @@
 
 ### Build application
 Для сборки приложения необходим .NET Core 3.1 SDK!<br />
-Способ 1<br />
+Способ 1:
  1. Открыть cmd или PowerShell b и перейти в папку ...\TaskCountries\TaskCountries
  2. Выполнить команду dotnet run
-Способ 2<br />
+Способ 2:
  1. Открыть ...\TaskCountries\TaskCountries.sln через Visual Studio
  2. Сделать проект TaskCountries запускаемым по умолчанию
  3. Запустить проект
