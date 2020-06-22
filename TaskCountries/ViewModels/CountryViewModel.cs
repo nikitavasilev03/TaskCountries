@@ -13,6 +13,20 @@ namespace TaskCountries.ViewModels
         private int population;
         private string region;
 
+        public CountryViewModel()
+        {
+
+        }
+        public CountryViewModel(RESTCountries.Models.Country country)
+        {
+            name = country.Name;
+            area = country.Area.GetValueOrDefault();
+            Capital = country.Capital + "";
+            Code = country.NumericCode;
+            Population = country.Population;
+            Region = country.Region + "";
+        }
+
         public string Name
         {
             get { return name; }
@@ -76,14 +90,11 @@ namespace TaskCountries.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
         }
         //Проверка на валидность
-        public bool IsValid 
-        { 
-            get 
-            {
-                if (name == "" || code == "" || region == "" || capital == "")
-                    return false;
-                return true;
-            } 
+        public bool IsValid()
+        {
+            if (name == "" || code == "" || region == "" || capital == "")
+                return false;
+            return true;
         }
     }
 }

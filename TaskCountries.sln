@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainCore", "DomainCore\DomainCore.csproj", "{771B5163-CBAC-4F5D-B41D-C16F84BF3866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainCore", "DomainCore\DomainCore.csproj", "{771B5163-CBAC-4F5D-B41D-C16F84BF3866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFillDB", "DataFillDB\DataFillDB.csproj", "{05298939-75A1-4C4A-B16D-E6D39D3790A6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCountries", "TaskCountries\TaskCountries.csproj", "{1396079D-A759-4CD5-88D7-EFDE1ED205F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskCountries", "TaskCountries\TaskCountries.csproj", "{1396079D-A759-4CD5-88D7-EFDE1ED205F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{771B5163-CBAC-4F5D-B41D-C16F84BF3866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{771B5163-CBAC-4F5D-B41D-C16F84BF3866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{771B5163-CBAC-4F5D-B41D-C16F84BF3866}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05298939-75A1-4C4A-B16D-E6D39D3790A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05298939-75A1-4C4A-B16D-E6D39D3790A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05298939-75A1-4C4A-B16D-E6D39D3790A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05298939-75A1-4C4A-B16D-E6D39D3790A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1396079D-A759-4CD5-88D7-EFDE1ED205F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1396079D-A759-4CD5-88D7-EFDE1ED205F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1396079D-A759-4CD5-88D7-EFDE1ED205F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
