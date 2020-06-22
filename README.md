@@ -16,9 +16,8 @@
 Запускаем TaskCountries.exe (...\TaskCountries\TaskCountries\bin\Debug(Realese)\netcoreapp3.1\TaskCountries.exe)
 
 ### Востановление БД
-Для востановления БД предаставляю два backup-файла MS SQL Server 14.0.1000 (должны работать оба):
+Для востановления БД предаставляю backup-файл MS SQL Server 14.0.1000:
  - CountiresDB.bak - текущий файл бэкапа
- - CountiresDB_old.bak - старый файл бэкапа 
 
 ### Подключение к БД
 Для подключения к БД используется строка подключения в файле конфигурации (connectionString="Data Source=...):<br/>
