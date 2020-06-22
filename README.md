@@ -6,7 +6,6 @@
  1. Открыть cmd или PowerShell b и перейти в папку ...\TaskCountries\TaskCountries
  2. Выполнить команду `dotnet run`<br/>
  
- 
 Способ 2:
  1. Открыть ...\TaskCountries\TaskCountries.sln через Visual Studio
  2. Сделать проект TaskCountries запускаемым по умолчанию
@@ -35,12 +34,8 @@
   - Microsoft.EntityFrameworkCore.SqlServer
   - Microsoft.EntityFrameworkCore.Tools
   
-### DataFillDB
-Тип: Console Application (.Net Core 3.1)<br />
-Описание: скрипт для переноса данных в БД из RESTCountries<br />
-Зависимости:<br />
-  - RESTCountries.NET
-  
 ### TaskCountries
 Тип: WPF App (.Net Core 3.1)<br />
 Описание: приложение для демонстрации выполненного задания<br />
+Зависимости:<br />
+  - RESTCountries.NET
